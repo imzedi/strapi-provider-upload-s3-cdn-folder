@@ -1,0 +1,26 @@
+{
+  "name": "strapi-provider-upload-s3-cdn-folder",
+  "version": "1.0.0",
+  "description": "Customised Strapi upload provider for S3 having support of prefix in path and CDN url while retrieval.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/imzedi/strapi-provider-upload-s3-cdn-folder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imzedi/strapi-provider-upload-s3-cdn-folder.git"
+  },
+  "author": "Zaid Kureshi",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.758.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  }
+}
