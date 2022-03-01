@@ -29,7 +29,7 @@ module.exports = {
             }
 
             file.url = config.cdnUrl
-              ? `${config.cdnUrl}/${data.Key.replace(prefix, "")}`
+              ? `${config.cdnUrl}/${data.Key}`
               : data.Location;
 
             resolve();
