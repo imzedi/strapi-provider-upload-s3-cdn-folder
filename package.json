@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-s3-cdn-folder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customised Strapi upload provider for S3 having support of prefix in path and CDN url while retrieval.",
   "main": "index.js",
   "scripts": {
